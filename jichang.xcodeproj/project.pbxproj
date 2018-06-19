@@ -3,199 +3,94 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11CD1D4F20D8D8DD000C49DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD1D4E20D8D8DD000C49DF /* AppDelegate.m */; };
-		11CD1D5520D8D8DD000C49DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CD1D5320D8D8DD000C49DF /* Main.storyboard */; };
-		11CD1D5720D8D8DD000C49DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CD1D5620D8D8DD000C49DF /* Assets.xcassets */; };
-		11CD1D5A20D8D8DD000C49DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CD1D5820D8D8DD000C49DF /* LaunchScreen.storyboard */; };
-		11CD1D5D20D8D8DD000C49DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD1D5C20D8D8DD000C49DF /* main.m */; };
-		11CD1D7020D8DA7F000C49DF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD1D6F20D8DA7F000C49DF /* BaseViewController.m */; };
-		11CD1D7320D8DBED000C49DF /* NetwokkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD1D7220D8DBED000C49DF /* NetwokkViewController.m */; };
-		11D8D23620D8E7C100023E60 /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D23520D8E7C100023E60 /* RefreshTableViewController.m */; };
-		11D8D23920D8E7D200023E60 /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D23820D8E7D200023E60 /* CommonTableViewController.m */; };
-		18C8A76E1B2166A60F607D61 /* libPods-jichang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB789B6E349A9A19D277090E /* libPods-jichang.a */; };
+		11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24920D8F9B000023E60 /* AppDelegate.m */; };
+		11D8D24D20D8F9B000023E60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24C20D8F9B000023E60 /* ViewController.m */; };
+		11D8D25020D8F9B000023E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D24E20D8F9B000023E60 /* Main.storyboard */; };
+		11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25120D8F9B200023E60 /* Assets.xcassets */; };
+		11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */; };
+		11D8D25820D8F9B200023E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D25720D8F9B200023E60 /* main.m */; };
+		3C4FE0753741AB49EEFB1521 /* libPods-jichang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C945335DBFFCC02ABCB9F98A /* libPods-jichang.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11CD1D4A20D8D8DD000C49DF /* jichang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jichang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		11CD1D4D20D8D8DD000C49DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		11CD1D4E20D8D8DD000C49DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11CD1D5420D8D8DD000C49DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11CD1D5620D8D8DD000C49DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11CD1D5920D8D8DD000C49DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		11CD1D5B20D8D8DD000C49DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11CD1D5C20D8D8DD000C49DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11CD1D6E20D8DA7F000C49DF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		11CD1D6F20D8DA7F000C49DF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		11CD1D7120D8DBED000C49DF /* NetwokkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetwokkViewController.h; sourceTree = "<group>"; };
-		11CD1D7220D8DBED000C49DF /* NetwokkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetwokkViewController.m; sourceTree = "<group>"; };
-		11D8D23420D8E7C100023E60 /* RefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
-		11D8D23520D8E7C100023E60 /* RefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
-		11D8D23720D8E7D200023E60 /* CommonTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
-		11D8D23820D8E7D200023E60 /* CommonTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
-		11D8D23B20D8E86E00023E60 /* jichang.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jichang.pch; sourceTree = "<group>"; };
-		943055CDC3F0EADD5CCFC8EA /* Pods-jichang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jichang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jichang/Pods-jichang.debug.xcconfig"; sourceTree = "<group>"; };
-		BB789B6E349A9A19D277090E /* libPods-jichang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jichang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA3F5D50CF4DB87DD4C06D4F /* Pods-jichang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jichang.release.xcconfig"; path = "Pods/Target Support Files/Pods-jichang/Pods-jichang.release.xcconfig"; sourceTree = "<group>"; };
+		11D8D24520D8F9B000023E60 /* jichang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jichang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D8D24820D8F9B000023E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11D8D24920D8F9B000023E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11D8D24B20D8F9B000023E60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11D8D24C20D8F9B000023E60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11D8D24F20D8F9B000023E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11D8D25120D8F9B200023E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11D8D25420D8F9B200023E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D8D25620D8F9B200023E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D8D25720D8F9B200023E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EBA27D83BCEC7ED5F0B8EC4 /* Pods-jichang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jichang.release.xcconfig"; path = "Pods/Target Support Files/Pods-jichang/Pods-jichang.release.xcconfig"; sourceTree = "<group>"; };
+		8F90ED2D517CE119D2B5FD12 /* Pods-jichang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jichang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jichang/Pods-jichang.debug.xcconfig"; sourceTree = "<group>"; };
+		C945335DBFFCC02ABCB9F98A /* libPods-jichang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jichang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11CD1D4720D8D8DD000C49DF /* Frameworks */ = {
+		11D8D24220D8F9B000023E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C8A76E1B2166A60F607D61 /* libPods-jichang.a in Frameworks */,
+				3C4FE0753741AB49EEFB1521 /* libPods-jichang.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11CD1D4120D8D8DD000C49DF = {
+		11D8D23C20D8F9B000023E60 = {
 			isa = PBXGroup;
 			children = (
-				11CD1D4C20D8D8DD000C49DF /* jichang */,
-				11CD1D4B20D8D8DD000C49DF /* Products */,
-				53B66BFFFF137A88AD2D8863 /* Pods */,
-				804025D5F8840BD76623D07D /* Frameworks */,
+				11D8D24720D8F9B000023E60 /* jichang */,
+				11D8D24620D8F9B000023E60 /* Products */,
+				35845B53C82B63F3305AF15A /* Pods */,
+				63E65DB2C70109F9C3A6BEF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		11CD1D4B20D8D8DD000C49DF /* Products */ = {
+		11D8D24620D8F9B000023E60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11CD1D4A20D8D8DD000C49DF /* jichang.app */,
+				11D8D24520D8F9B000023E60 /* jichang.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11CD1D4C20D8D8DD000C49DF /* jichang */ = {
+		11D8D24720D8F9B000023E60 /* jichang */ = {
 			isa = PBXGroup;
 			children = (
-				11CD1D6520D8D995000C49DF /* resources */,
-				11CD1D4D20D8D8DD000C49DF /* AppDelegate.h */,
-				11CD1D4E20D8D8DD000C49DF /* AppDelegate.m */,
-				11CD1D6E20D8DA7F000C49DF /* BaseViewController.h */,
-				11CD1D6F20D8DA7F000C49DF /* BaseViewController.m */,
-				11CD1D7120D8DBED000C49DF /* NetwokkViewController.h */,
-				11CD1D7220D8DBED000C49DF /* NetwokkViewController.m */,
-				11D8D23420D8E7C100023E60 /* RefreshTableViewController.h */,
-				11D8D23520D8E7C100023E60 /* RefreshTableViewController.m */,
-				11D8D23720D8E7D200023E60 /* CommonTableViewController.h */,
-				11D8D23820D8E7D200023E60 /* CommonTableViewController.m */,
-				11CD1D6320D8D96B000C49DF /* tabBarController */,
-				11CD1D5320D8D8DD000C49DF /* Main.storyboard */,
-				11CD1D5620D8D8DD000C49DF /* Assets.xcassets */,
-				11CD1D5820D8D8DD000C49DF /* LaunchScreen.storyboard */,
-				11CD1D5B20D8D8DD000C49DF /* Info.plist */,
-				11D8D23B20D8E86E00023E60 /* jichang.pch */,
-				11CD1D5C20D8D8DD000C49DF /* main.m */,
+				11D8D24820D8F9B000023E60 /* AppDelegate.h */,
+				11D8D24920D8F9B000023E60 /* AppDelegate.m */,
+				11D8D24B20D8F9B000023E60 /* ViewController.h */,
+				11D8D24C20D8F9B000023E60 /* ViewController.m */,
+				11D8D24E20D8F9B000023E60 /* Main.storyboard */,
+				11D8D25120D8F9B200023E60 /* Assets.xcassets */,
+				11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */,
+				11D8D25620D8F9B200023E60 /* Info.plist */,
+				11D8D25720D8F9B200023E60 /* main.m */,
 			);
 			path = jichang;
 			sourceTree = "<group>";
 		};
-		11CD1D6320D8D96B000C49DF /* tabBarController */ = {
+		35845B53C82B63F3305AF15A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				11CD1D6720D8D9D0000C49DF /* user */,
-				11CD1D6620D8D9C9000C49DF /* main */,
-			);
-			path = tabBarController;
-			sourceTree = "<group>";
-		};
-		11CD1D6520D8D995000C49DF /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				11D8D23020D8E60800023E60 /* images */,
-			);
-			path = resources;
-			sourceTree = "<group>";
-		};
-		11CD1D6620D8D9C9000C49DF /* main */ = {
-			isa = PBXGroup;
-			children = (
-				11CD1D6A20D8D9FC000C49DF /* controller */,
-				11CD1D6920D8D9F8000C49DF /* view */,
-				11CD1D6820D8D9F0000C49DF /* model */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
-		11CD1D6720D8D9D0000C49DF /* user */ = {
-			isa = PBXGroup;
-			children = (
-				11CD1D6D20D8DA5C000C49DF /* controller */,
-				11CD1D6C20D8DA56000C49DF /* view */,
-				11CD1D6B20D8DA36000C49DF /* model */,
-			);
-			path = user;
-			sourceTree = "<group>";
-		};
-		11CD1D6820D8D9F0000C49DF /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		11CD1D6920D8D9F8000C49DF /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		11CD1D6A20D8D9FC000C49DF /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		11CD1D6B20D8DA36000C49DF /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		11CD1D6C20D8DA56000C49DF /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		11CD1D6D20D8DA5C000C49DF /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		11D8D23020D8E60800023E60 /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		53B66BFFFF137A88AD2D8863 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				943055CDC3F0EADD5CCFC8EA /* Pods-jichang.debug.xcconfig */,
-				EA3F5D50CF4DB87DD4C06D4F /* Pods-jichang.release.xcconfig */,
+				8F90ED2D517CE119D2B5FD12 /* Pods-jichang.debug.xcconfig */,
+				8EBA27D83BCEC7ED5F0B8EC4 /* Pods-jichang.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		804025D5F8840BD76623D07D /* Frameworks */ = {
+		63E65DB2C70109F9C3A6BEF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BB789B6E349A9A19D277090E /* libPods-jichang.a */,
+				C945335DBFFCC02ABCB9F98A /* libPods-jichang.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,15 +98,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11CD1D4920D8D8DD000C49DF /* jichang */ = {
+		11D8D24420D8F9B000023E60 /* jichang */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11CD1D6020D8D8DD000C49DF /* Build configuration list for PBXNativeTarget "jichang" */;
+			buildConfigurationList = 11D8D25B20D8F9B200023E60 /* Build configuration list for PBXNativeTarget "jichang" */;
 			buildPhases = (
-				3A50DD2097FABC402FF06C20 /* [CP] Check Pods Manifest.lock */,
-				11CD1D4620D8D8DD000C49DF /* Sources */,
-				11CD1D4720D8D8DD000C49DF /* Frameworks */,
-				11CD1D4820D8D8DD000C49DF /* Resources */,
-				8CE896B26E9ADB1226C02D9E /* [CP] Copy Pods Resources */,
+				FAB0BB1464A19957012E9F23 /* [CP] Check Pods Manifest.lock */,
+				11D8D24120D8F9B000023E60 /* Sources */,
+				11D8D24220D8F9B000023E60 /* Frameworks */,
+				11D8D24320D8F9B000023E60 /* Resources */,
+				39B920C7A8015B0AFC1A8B48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,75 +114,56 @@
 			);
 			name = jichang;
 			productName = jichang;
-			productReference = 11CD1D4A20D8D8DD000C49DF /* jichang.app */;
+			productReference = 11D8D24520D8F9B000023E60 /* jichang.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		11CD1D4220D8D8DD000C49DF /* Project object */ = {
+		11D8D23D20D8F9B000023E60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = minglongkeji;
 				TargetAttributes = {
-					11CD1D4920D8D8DD000C49DF = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					11D8D24420D8F9B000023E60 = {
+						CreatedOnToolsVersion = 9.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 11CD1D4520D8D8DD000C49DF /* Build configuration list for PBXProject "jichang" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 11D8D24020D8F9B000023E60 /* Build configuration list for PBXProject "jichang" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 11CD1D4120D8D8DD000C49DF;
-			productRefGroup = 11CD1D4B20D8D8DD000C49DF /* Products */;
+			mainGroup = 11D8D23C20D8F9B000023E60;
+			productRefGroup = 11D8D24620D8F9B000023E60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11CD1D4920D8D8DD000C49DF /* jichang */,
+				11D8D24420D8F9B000023E60 /* jichang */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		11CD1D4820D8D8DD000C49DF /* Resources */ = {
+		11D8D24320D8F9B000023E60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CD1D5A20D8D8DD000C49DF /* LaunchScreen.storyboard in Resources */,
-				11CD1D5720D8D8DD000C49DF /* Assets.xcassets in Resources */,
-				11CD1D5520D8D8DD000C49DF /* Main.storyboard in Resources */,
+				11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */,
+				11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */,
+				11D8D25020D8F9B000023E60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A50DD2097FABC402FF06C20 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-jichang-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8CE896B26E9ADB1226C02D9E /* [CP] Copy Pods Resources */ = {
+		39B920C7A8015B0AFC1A8B48 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,37 +181,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jichang/Pods-jichang-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FAB0BB1464A19957012E9F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jichang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11CD1D4620D8D8DD000C49DF /* Sources */ = {
+		11D8D24120D8F9B000023E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CD1D7020D8DA7F000C49DF /* BaseViewController.m in Sources */,
-				11CD1D5D20D8D8DD000C49DF /* main.m in Sources */,
-				11CD1D7320D8DBED000C49DF /* NetwokkViewController.m in Sources */,
-				11CD1D4F20D8D8DD000C49DF /* AppDelegate.m in Sources */,
-				11D8D23620D8E7C100023E60 /* RefreshTableViewController.m in Sources */,
-				11D8D23920D8E7D200023E60 /* CommonTableViewController.m in Sources */,
+				11D8D24D20D8F9B000023E60 /* ViewController.m in Sources */,
+				11D8D25820D8F9B200023E60 /* main.m in Sources */,
+				11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11CD1D5320D8D8DD000C49DF /* Main.storyboard */ = {
+		11D8D24E20D8F9B000023E60 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11CD1D5420D8D8DD000C49DF /* Base */,
+				11D8D24F20D8F9B000023E60 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		11CD1D5820D8D8DD000C49DF /* LaunchScreen.storyboard */ = {
+		11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11CD1D5920D8D8DD000C49DF /* Base */,
+				11D8D25420D8F9B200023E60 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -343,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		11CD1D5E20D8D8DD000C49DF /* Debug */ = {
+		11D8D25920D8F9B200023E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,10 +244,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -364,6 +257,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -391,14 +285,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		11CD1D5F20D8D8DD000C49DF /* Release */ = {
+		11D8D25A20D8F9B200023E60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,10 +302,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -419,6 +315,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -440,43 +337,43 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		11CD1D6120D8D8DD000C49DF /* Debug */ = {
+		11D8D25C20D8F9B200023E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 943055CDC3F0EADD5CCFC8EA /* Pods-jichang.debug.xcconfig */;
+			baseConfigurationReference = 8F90ED2D517CE119D2B5FD12 /* Pods-jichang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZC6S954D9;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = jichang/jichang.pch;
 				INFOPLIST_FILE = jichang/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.minglongkeji.jichang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		11CD1D6220D8D8DD000C49DF /* Release */ = {
+		11D8D25D20D8F9B200023E60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA3F5D50CF4DB87DD4C06D4F /* Pods-jichang.release.xcconfig */;
+			baseConfigurationReference = 8EBA27D83BCEC7ED5F0B8EC4 /* Pods-jichang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZC6S954D9;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = jichang/jichang.pch;
 				INFOPLIST_FILE = jichang/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.minglongkeji.jichang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,25 +383,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11CD1D4520D8D8DD000C49DF /* Build configuration list for PBXProject "jichang" */ = {
+		11D8D24020D8F9B000023E60 /* Build configuration list for PBXProject "jichang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11CD1D5E20D8D8DD000C49DF /* Debug */,
-				11CD1D5F20D8D8DD000C49DF /* Release */,
+				11D8D25920D8F9B200023E60 /* Debug */,
+				11D8D25A20D8F9B200023E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11CD1D6020D8D8DD000C49DF /* Build configuration list for PBXNativeTarget "jichang" */ = {
+		11D8D25B20D8F9B200023E60 /* Build configuration list for PBXNativeTarget "jichang" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11CD1D6120D8D8DD000C49DF /* Debug */,
-				11CD1D6220D8D8DD000C49DF /* Release */,
+				11D8D25C20D8F9B200023E60 /* Debug */,
+				11D8D25D20D8F9B200023E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 11CD1D4220D8D8DD000C49DF /* Project object */;
+	rootObject = 11D8D23D20D8F9B000023E60 /* Project object */;
 }
