@@ -1,0 +1,59 @@
+//
+//  jichang-prefix.pch
+//  jichang
+//
+//  Created by jiamanu on 2018/6/19.
+//  Copyright © 2018年 minglongkeji. All rights reserved.
+//
+
+#ifndef jichang_prefix_h
+#define jichang_prefix_h
+
+//framework
+#import <AFNetworking.h>
+#import <RETableViewManager.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <PureLayout.h>
+#import "UIViewController+HUD.h"
+
+
+//block弱引用
+#define JCWeakWithNameAndObject(_obj,_name) __weak typeof(_obj) weak##_name = _obj
+#define JCWeak(_obj) JCWeakWithNameAndObject(_obj,_obj)
+#define JCWeakSelf JCWeak(self)
+
+//color
+#define UIColorFromRGB(rgbValue)  [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromRGB1(rgbValue,alpha1)  [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alpha1]
+
+
+#define JCRedColor [UIColor redColor]
+#define JCWhiteColor [UIColor whiteColor]
+
+
+//font
+#define JCFont10 [UIFont systemFontOfSize:10]
+#define JCFont11 [UIFont systemFontOfSize:11]
+#define JCFont12 [UIFont systemFontOfSize:12]
+#define JCFont13 [UIFont systemFontOfSize:13]
+#define JCFont14 [UIFont systemFontOfSize:14]
+#define JCFont15 [UIFont systemFontOfSize:15]
+#define JCFont16 [UIFont systemFontOfSize:16]
+#define JCFont17 [UIFont systemFontOfSize:17]
+#define JCFont18 [UIFont systemFontOfSize:18]
+
+//space
+#define JCSmallSpace 10
+#define JCMiddleSpace 15
+#define JCBigSpace 20
+
+
+#define JCWindowWidth [UIScreen mainScreen].bounds.size.width
+#define JCWindowHeight [UIScreen mainScreen].bounds.size.height
+
+
+//API
+
+
+#endif /* jichang_prefix_h */

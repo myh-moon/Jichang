@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F19F49A56AEE5CDA6E003B9A8815C3ED"
+               BlueprintIdentifier = "B9467F01F4996DA6115AA1E7A9CAE126"
                BuildableName = "RETableViewManager.bundle"
                BlueprintName = "RETableViewManager-RETableViewManager"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F19F49A56AEE5CDA6E003B9A8815C3ED"
+            BlueprintIdentifier = "B9467F01F4996DA6115AA1E7A9CAE126"
             BuildableName = "RETableViewManager.bundle"
             BlueprintName = "RETableViewManager-RETableViewManager"
             ReferencedContainer = "container:Pods.xcodeproj">

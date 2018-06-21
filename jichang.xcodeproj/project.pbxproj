@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11147A7D20DA2340007D295C /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A7C20DA2340007D295C /* UIImage+Color.m */; };
+		11147A8520DA3972007D295C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8420DA3972007D295C /* MainViewController.m */; };
+		11147A8820DA451E007D295C /* NoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8720DA451E007D295C /* NoNavViewController.m */; };
+		11147A8B20DA4D10007D295C /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8A20DA4D10007D295C /* UIViewController+HUD.m */; };
 		11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24920D8F9B000023E60 /* AppDelegate.m */; };
 		11D8D24D20D8F9B000023E60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24C20D8F9B000023E60 /* ViewController.m */; };
 		11D8D25020D8F9B000023E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D24E20D8F9B000023E60 /* Main.storyboard */; };
 		11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25120D8F9B200023E60 /* Assets.xcassets */; };
 		11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */; };
 		11D8D25820D8F9B200023E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D25720D8F9B200023E60 /* main.m */; };
+		11F9A42120D90B7C00B96CC0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42020D90B7C00B96CC0 /* BaseViewController.m */; };
+		11F9A42420D90B9800B96CC0 /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42320D90B9800B96CC0 /* NetworkViewController.m */; };
+		11F9A42720D90BBE00B96CC0 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42620D90BBE00B96CC0 /* RefreshViewController.m */; };
+		11F9A42A20D90BFE00B96CC0 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42920D90BFE00B96CC0 /* CommonViewController.m */; };
 		3C4FE0753741AB49EEFB1521 /* libPods-jichang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C945335DBFFCC02ABCB9F98A /* libPods-jichang.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11147A7B20DA2340007D295C /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		11147A7C20DA2340007D295C /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		11147A8320DA3972007D295C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		11147A8420DA3972007D295C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		11147A8620DA451E007D295C /* NoNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoNavViewController.h; sourceTree = "<group>"; };
+		11147A8720DA451E007D295C /* NoNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoNavViewController.m; sourceTree = "<group>"; };
+		11147A8920DA4D10007D295C /* UIViewController+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		11147A8A20DA4D10007D295C /* UIViewController+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
 		11D8D24520D8F9B000023E60 /* jichang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jichang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D8D24820D8F9B000023E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11D8D24920D8F9B000023E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,6 +43,15 @@
 		11D8D25420D8F9B200023E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D8D25620D8F9B200023E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D8D25720D8F9B200023E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F9A41820D907FE00B96CC0 /* jichang-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jichang-prefix.pch"; sourceTree = "<group>"; };
+		11F9A41F20D90B7C00B96CC0 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		11F9A42020D90B7C00B96CC0 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		11F9A42220D90B9800B96CC0 /* NetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		11F9A42320D90B9800B96CC0 /* NetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+		11F9A42520D90BBE00B96CC0 /* RefreshViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		11F9A42620D90BBE00B96CC0 /* RefreshViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
+		11F9A42820D90BFE00B96CC0 /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		11F9A42920D90BFE00B96CC0 /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
 		8EBA27D83BCEC7ED5F0B8EC4 /* Pods-jichang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jichang.release.xcconfig"; path = "Pods/Target Support Files/Pods-jichang/Pods-jichang.release.xcconfig"; sourceTree = "<group>"; };
 		8F90ED2D517CE119D2B5FD12 /* Pods-jichang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jichang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jichang/Pods-jichang.debug.xcconfig"; sourceTree = "<group>"; };
 		C945335DBFFCC02ABCB9F98A /* libPods-jichang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jichang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +69,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11147A7A20DA2324007D295C /* class */ = {
+			isa = PBXGroup;
+			children = (
+				11147A7B20DA2340007D295C /* UIImage+Color.h */,
+				11147A7C20DA2340007D295C /* UIImage+Color.m */,
+				11147A8920DA4D10007D295C /* UIViewController+HUD.h */,
+				11147A8A20DA4D10007D295C /* UIViewController+HUD.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		11147A7E20DA3940007D295C /* main */ = {
+			isa = PBXGroup;
+			children = (
+				11147A8220DA3959007D295C /* controller */,
+				11147A8120DA3954007D295C /* view */,
+				11147A8020DA394E007D295C /* model */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		11147A7F20DA3946007D295C /* user */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		11147A8020DA394E007D295C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		11147A8120DA3954007D295C /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		11147A8220DA3959007D295C /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				11147A8320DA3972007D295C /* MainViewController.h */,
+				11147A8420DA3972007D295C /* MainViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		11D8D23C20D8F9B000023E60 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +141,10 @@
 		11D8D24720D8F9B000023E60 /* jichang */ = {
 			isa = PBXGroup;
 			children = (
+				11147A7A20DA2324007D295C /* class */,
+				11F9A41E20D90B6A00B96CC0 /* baseControllers */,
+				11F9A41D20D90B1400B96CC0 /* tabBarControllers */,
+				11F9A41C20D90B0E00B96CC0 /* resources */,
 				11D8D24820D8F9B000023E60 /* AppDelegate.h */,
 				11D8D24920D8F9B000023E60 /* AppDelegate.m */,
 				11D8D24B20D8F9B000023E60 /* ViewController.h */,
@@ -73,9 +153,43 @@
 				11D8D25120D8F9B200023E60 /* Assets.xcassets */,
 				11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */,
 				11D8D25620D8F9B200023E60 /* Info.plist */,
+				11F9A41820D907FE00B96CC0 /* jichang-prefix.pch */,
 				11D8D25720D8F9B200023E60 /* main.m */,
 			);
 			path = jichang;
+			sourceTree = "<group>";
+		};
+		11F9A41C20D90B0E00B96CC0 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		11F9A41D20D90B1400B96CC0 /* tabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11147A7F20DA3946007D295C /* user */,
+				11147A7E20DA3940007D295C /* main */,
+			);
+			path = tabBarControllers;
+			sourceTree = "<group>";
+		};
+		11F9A41E20D90B6A00B96CC0 /* baseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11F9A41F20D90B7C00B96CC0 /* BaseViewController.h */,
+				11F9A42020D90B7C00B96CC0 /* BaseViewController.m */,
+				11F9A42220D90B9800B96CC0 /* NetworkViewController.h */,
+				11F9A42320D90B9800B96CC0 /* NetworkViewController.m */,
+				11F9A42520D90BBE00B96CC0 /* RefreshViewController.h */,
+				11F9A42620D90BBE00B96CC0 /* RefreshViewController.m */,
+				11F9A42820D90BFE00B96CC0 /* CommonViewController.h */,
+				11F9A42920D90BFE00B96CC0 /* CommonViewController.m */,
+				11147A8620DA451E007D295C /* NoNavViewController.h */,
+				11147A8720DA451E007D295C /* NoNavViewController.m */,
+			);
+			path = baseControllers;
 			sourceTree = "<group>";
 		};
 		35845B53C82B63F3305AF15A /* Pods */ = {
@@ -207,8 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D8D24D20D8F9B000023E60 /* ViewController.m in Sources */,
+				11F9A42A20D90BFE00B96CC0 /* CommonViewController.m in Sources */,
+				11F9A42120D90B7C00B96CC0 /* BaseViewController.m in Sources */,
+				11F9A42720D90BBE00B96CC0 /* RefreshViewController.m in Sources */,
+				11147A8520DA3972007D295C /* MainViewController.m in Sources */,
 				11D8D25820D8F9B200023E60 /* main.m in Sources */,
+				11147A8B20DA4D10007D295C /* UIViewController+HUD.m in Sources */,
+				11147A7D20DA2340007D295C /* UIImage+Color.m in Sources */,
 				11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */,
+				11F9A42420D90B9800B96CC0 /* NetworkViewController.m in Sources */,
+				11147A8820DA451E007D295C /* NoNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +473,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZC6S954D9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jichang/jichang-prefix.pch";
 				INFOPLIST_FILE = jichang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,6 +493,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZC6S954D9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jichang/jichang-prefix.pch";
 				INFOPLIST_FILE = jichang/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

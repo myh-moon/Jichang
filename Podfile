@@ -12,4 +12,6 @@ pod 'ReactiveCocoa', '~> 2.5'
 
 pod 'RETableViewManager', '~> 1.7'
 
+pod 'PureLayout', '~> 3.0.2'
+
 end	
