@@ -14,8 +14,13 @@
 #import <RETableViewManager.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <MBProgressHUD/MBProgressHUD.h>
-#import <PureLayout.h>
+#import <PureLayout/PureLayout.h>
+#import <MJRefresh/MJRefresh.h>
+
+
+//class
 #import "UIViewController+HUD.h"
+
 
 
 //block弱引用
@@ -30,6 +35,8 @@
 
 #define JCRedColor [UIColor redColor]
 #define JCWhiteColor [UIColor whiteColor]
+#define JCBlackColor [UIColor blackColor]
+
 
 
 //font

@@ -10,9 +10,10 @@
 
 @interface NetworkViewController : BaseViewController
 
+//get
 - (void) requestDataOfGetWithUrl:(NSString *)url parameter:(NSDictionary *)param successBlock:(void(^)(id respondObject))successBlock failedBlock:(void(^)(NSError *error))failedBlock;
 
-
+//post
 - (void) requestDataOfPostWithUrl:(NSString *)url parameter:(NSDictionary *)param successBlock:(void(^)(id respondObject))successBlock failedBlock:(void(^)(NSError *error))failedBlock;
 
 //- (void) layoutConstraints;

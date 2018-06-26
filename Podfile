@@ -14,4 +14,6 @@ pod 'RETableViewManager', '~> 1.7'
 
 pod 'PureLayout', '~> 3.0.2'
 
+pod 'MJRefresh', '~> 3.1.15.3'
+
 end	

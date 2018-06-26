@@ -40,6 +40,20 @@
     if (!_refreshTableView) {
         _refreshTableView = [UITableView newAutoLayoutView];
         _refreshTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, JCSmallSpace)];
+        
+        JCWeakSelf;
+        _refreshTableView.mj_header = [MJRefreshGifHeader headerWithRefreshingBlock:^{
+            if (weakself.PullToRefreshHandle) {
+                weakself.PullToRefreshHandle();
+            }
+        }];
+        
+        _refreshTableView.mj_footer = [MJRefreshBackGifFooter footerWithRefreshingBlock:^{
+            if (weakself.PullToLoadHandle) {
+                weakself.PullToRefreshHandle();
+            }
+        }];
+        
     }
     return _refreshTableView;
 }

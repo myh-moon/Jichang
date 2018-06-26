@@ -21,6 +21,7 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.15.3)
   - PureLayout (3.0.2)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -38,6 +39,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.6)
   - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (~> 3.1.15.3)
   - PureLayout (~> 3.0.2)
   - ReactiveCocoa (~> 2.5)
   - RETableViewManager (~> 1.7)
@@ -46,6 +48,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - MBProgressHUD
+    - MJRefresh
     - PureLayout
     - ReactiveCocoa
     - REFormattedNumberField
@@ -55,12 +58,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
   RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
   REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
 
-PODFILE CHECKSUM: 6683024cf48e5fe4c0d0fce8ab040f3f72d2aadb
+PODFILE CHECKSUM: 1b8f3c7011d37862f4476ad1d42a9ae530932e95
 
 COCOAPODS: 1.5.3

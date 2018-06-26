@@ -21,7 +21,8 @@
 
 - (void)requestDataOfGetWithUrl:(NSString *)url parameter:(NSDictionary *)param successBlock:(void (^)(id))successBlock failedBlock:(void (^)(NSError *))failedBlock {
     
-    [self showSuitHint:@"请耐心等待"];
+//    [self showSuitHint:@"请耐心等待"];
+    [self showHudInView:self.view hint:@"请稍后"];
     
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.requestSerializer = AFHTTPRequestSerializer.serializer;
@@ -32,20 +33,42 @@
     manager.requestSerializer.timeoutInterval = 5.f;
     [manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
     
-    
+    JCWeakSelf;
     [manager GET:url parameters:param success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
-        [self hideHud];
+        [weakself hideHud];
         
         if (successBlock) {
             successBlock(responseObject);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
+        [weakself hideHud];
     }];
 }
 
 - (void)requestDataOfPostWithUrl:(NSString *)url parameter:(NSDictionary *)param successBlock:(void (^)(id))successBlock failedBlock:(void (^)(NSError *))failedBlock {
     
+    [self showHudInView:self.view hint:@"请稍后"];
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    manager.requestSerializer = [AFHTTPRequestSerializer serializer];
+    
+    //设置超时时间
+    [manager.requestSerializer willChangeValueForKey:@"timeoutInterval"];
+    manager.requestSerializer.timeoutInterval = 5.f;
+    [manager.requestSerializer didChangeValueForKey:@"timeoutInterval"];
+    
+    JCWeakSelf;
+    [manager GET:url parameters:param success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+        [weakself hideHud];
+        
+        if (successBlock) {
+            successBlock(responseObject);
+        }
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [weakself hideHud];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

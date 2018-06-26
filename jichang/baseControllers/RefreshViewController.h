@@ -10,4 +10,7 @@
 
 @interface RefreshViewController : NetworkViewController
 
+@property (nonatomic,strong) void (^PullToLoadHandle)(void);
+@property (nonatomic,strong) void (^PullToRefreshHandle)(void);
+
 @end

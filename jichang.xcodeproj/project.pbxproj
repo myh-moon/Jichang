@@ -11,9 +11,9 @@
 		11147A8520DA3972007D295C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8420DA3972007D295C /* MainViewController.m */; };
 		11147A8820DA451E007D295C /* NoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8720DA451E007D295C /* NoNavViewController.m */; };
 		11147A8B20DA4D10007D295C /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8A20DA4D10007D295C /* UIViewController+HUD.m */; };
+		1126D00F20DCCA9900BB7933 /* JCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126D00E20DCCA9900BB7933 /* JCTabBarViewController.m */; };
+		1126D01520DCCADD00BB7933 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126D01420DCCADD00BB7933 /* MineViewController.m */; };
 		11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24920D8F9B000023E60 /* AppDelegate.m */; };
-		11D8D24D20D8F9B000023E60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24C20D8F9B000023E60 /* ViewController.m */; };
-		11D8D25020D8F9B000023E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D24E20D8F9B000023E60 /* Main.storyboard */; };
 		11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25120D8F9B200023E60 /* Assets.xcassets */; };
 		11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */; };
 		11D8D25820D8F9B200023E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D25720D8F9B200023E60 /* main.m */; };
@@ -33,12 +33,13 @@
 		11147A8720DA451E007D295C /* NoNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoNavViewController.m; sourceTree = "<group>"; };
 		11147A8920DA4D10007D295C /* UIViewController+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		11147A8A20DA4D10007D295C /* UIViewController+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		1126D00D20DCCA9900BB7933 /* JCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTabBarViewController.h; sourceTree = "<group>"; };
+		1126D00E20DCCA9900BB7933 /* JCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarViewController.m; sourceTree = "<group>"; };
+		1126D01320DCCADD00BB7933 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		1126D01420DCCADD00BB7933 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		11D8D24520D8F9B000023E60 /* jichang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jichang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D8D24820D8F9B000023E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11D8D24920D8F9B000023E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11D8D24B20D8F9B000023E60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11D8D24C20D8F9B000023E60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		11D8D24F20D8F9B000023E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11D8D25120D8F9B200023E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D8D25420D8F9B200023E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D8D25620D8F9B200023E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +94,9 @@
 		11147A7F20DA3946007D295C /* user */ = {
 			isa = PBXGroup;
 			children = (
+				1126D01220DCCAC700BB7933 /* controller */,
+				1126D01120DCCAC200BB7933 /* view */,
+				1126D01020DCCABE00BB7933 /* model */,
 			);
 			path = user;
 			sourceTree = "<group>";
@@ -116,6 +120,29 @@
 			children = (
 				11147A8320DA3972007D295C /* MainViewController.h */,
 				11147A8420DA3972007D295C /* MainViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1126D01020DCCABE00BB7933 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1126D01120DCCAC200BB7933 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1126D01220DCCAC700BB7933 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1126D01320DCCADD00BB7933 /* MineViewController.h */,
+				1126D01420DCCADD00BB7933 /* MineViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -147,9 +174,6 @@
 				11F9A41C20D90B0E00B96CC0 /* resources */,
 				11D8D24820D8F9B000023E60 /* AppDelegate.h */,
 				11D8D24920D8F9B000023E60 /* AppDelegate.m */,
-				11D8D24B20D8F9B000023E60 /* ViewController.h */,
-				11D8D24C20D8F9B000023E60 /* ViewController.m */,
-				11D8D24E20D8F9B000023E60 /* Main.storyboard */,
 				11D8D25120D8F9B200023E60 /* Assets.xcassets */,
 				11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */,
 				11D8D25620D8F9B200023E60 /* Info.plist */,
@@ -188,6 +212,8 @@
 				11F9A42920D90BFE00B96CC0 /* CommonViewController.m */,
 				11147A8620DA451E007D295C /* NoNavViewController.h */,
 				11147A8720DA451E007D295C /* NoNavViewController.m */,
+				1126D00D20DCCA9900BB7933 /* JCTabBarViewController.h */,
+				1126D00E20DCCA9900BB7933 /* JCTabBarViewController.m */,
 			);
 			path = baseControllers;
 			sourceTree = "<group>";
@@ -270,7 +296,6 @@
 			files = (
 				11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */,
 				11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */,
-				11D8D25020D8F9B000023E60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,10 +309,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-jichang/Pods-jichang-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RETableViewManager.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,13 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D8D24D20D8F9B000023E60 /* ViewController.m in Sources */,
 				11F9A42A20D90BFE00B96CC0 /* CommonViewController.m in Sources */,
+				1126D01520DCCADD00BB7933 /* MineViewController.m in Sources */,
 				11F9A42120D90B7C00B96CC0 /* BaseViewController.m in Sources */,
 				11F9A42720D90BBE00B96CC0 /* RefreshViewController.m in Sources */,
 				11147A8520DA3972007D295C /* MainViewController.m in Sources */,
 				11D8D25820D8F9B200023E60 /* main.m in Sources */,
 				11147A8B20DA4D10007D295C /* UIViewController+HUD.m in Sources */,
+				1126D00F20DCCA9900BB7933 /* JCTabBarViewController.m in Sources */,
 				11147A7D20DA2340007D295C /* UIImage+Color.m in Sources */,
 				11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */,
 				11F9A42420D90B9800B96CC0 /* NetworkViewController.m in Sources */,
@@ -337,14 +365,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11D8D24E20D8F9B000023E60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11D8D24F20D8F9B000023E60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
