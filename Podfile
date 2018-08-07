@@ -16,4 +16,6 @@ pod 'PureLayout', '~> 3.0.2'
 
 pod 'MJRefresh', '~> 3.1.15.3'
 
+pod 'YBPopupMenu', '~> 1.1.2'
+
 end	

@@ -8,10 +8,9 @@
 
 #import "CommonViewController.h"
 
-@interface CommonViewController ()<RETableViewManagerDelegate>
+@interface CommonViewController ()
 
-@property (nonatomic,strong) RETableViewManager *commonManager;
-@property (nonatomic,strong) UITableView *commonTableView;
+
 
 @end
 
@@ -20,13 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     [self.view addSubview:self.commonTableView];
-    
     [self.view setNeedsUpdateConstraints];
     
     self.commonManager = [[RETableViewManager alloc] initWithTableView:self.commonTableView];
-    
 }
 
 - (void)updateViewConstraints {

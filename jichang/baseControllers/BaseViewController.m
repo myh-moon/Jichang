@@ -29,6 +29,8 @@
 
     //右滑返回
     self.navigationController.interactivePopGestureRecognizer.delegate = self;
+    
+//    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 - (UIButton *)leftBtn {
@@ -48,8 +50,13 @@
         _rightBtn.frame = CGRectMake(0, 0, 60, 44);
         [_rightBtn setTitleColor:JCRedColor forState:0];
         _rightBtn.titleLabel.font = JCFont14;
+        [_rightBtn addTarget:self action:@selector(rightAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _rightBtn;
+}
+
+- (void)rightAction{
+    
 }
 
 - (UIBarButtonItem *)leftBarButton {

@@ -6,8 +6,8 @@
 //  Copyright © 2018年 minglongkeji. All rights reserved.
 //
 
-#import "NoNavViewController.h"
+#import "NetworkViewController.h"
 
-@interface MineViewController : NoNavViewController
+@interface MineViewController : NetworkViewController
 
 @end

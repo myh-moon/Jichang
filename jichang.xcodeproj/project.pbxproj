@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11063C9A210AB6FF00B58899 /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11063C99210AB6FF00B58899 /* GestureViewController.m */; };
+		110C240D210FFEAA000555AF /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110C240C210FFEAA000555AF /* FiveViewController.m */; };
+		110C241021101183000555AF /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110C240F21101183000555AF /* SixViewController.m */; };
 		11147A7D20DA2340007D295C /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A7C20DA2340007D295C /* UIImage+Color.m */; };
 		11147A8520DA3972007D295C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8420DA3972007D295C /* MainViewController.m */; };
 		11147A8820DA451E007D295C /* NoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8720DA451E007D295C /* NoNavViewController.m */; };
 		11147A8B20DA4D10007D295C /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 11147A8A20DA4D10007D295C /* UIViewController+HUD.m */; };
+		1116FD5D210EA3EE00C76F15 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1116FD5C210EA3EE00C76F15 /* SecondViewController.m */; };
+		1116FD63210EB55700C76F15 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1116FD62210EB55700C76F15 /* ThirdViewController.m */; };
+		1116FD66210EDD4B00C76F15 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1116FD65210EDD4B00C76F15 /* FourViewController.m */; };
 		1126D00F20DCCA9900BB7933 /* JCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126D00E20DCCA9900BB7933 /* JCTabBarViewController.m */; };
 		1126D01520DCCADD00BB7933 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126D01420DCCADD00BB7933 /* MineViewController.m */; };
+		118EC2DE21081E5A00FC2A5A /* UIButton+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 118EC2DD21081E5A00FC2A5A /* UIButton+Action.m */; };
 		11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D24920D8F9B000023E60 /* AppDelegate.m */; };
 		11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25120D8F9B200023E60 /* Assets.xcassets */; };
 		11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D8D25320D8F9B200023E60 /* LaunchScreen.storyboard */; };
 		11D8D25820D8F9B200023E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D8D25720D8F9B200023E60 /* main.m */; };
+		11EFDD5921096E1E001998C9 /* share_black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EFDD5621096E1D001998C9 /* share_black@3x.png */; };
+		11EFDD5A21096E1E001998C9 /* share_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EFDD5721096E1D001998C9 /* share_black@2x.png */; };
+		11EFDD5B21096E1E001998C9 /* share_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EFDD5821096E1E001998C9 /* share_black.png */; };
+		11EFDD5D2109C4F2001998C9 /* 活动_01@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11EFDD5C2109C4F2001998C9 /* 活动_01@3x.png */; };
 		11F9A42120D90B7C00B96CC0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42020D90B7C00B96CC0 /* BaseViewController.m */; };
 		11F9A42420D90B9800B96CC0 /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42320D90B9800B96CC0 /* NetworkViewController.m */; };
 		11F9A42720D90BBE00B96CC0 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F9A42620D90BBE00B96CC0 /* RefreshViewController.m */; };
@@ -25,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11063C98210AB6FF00B58899 /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		11063C99210AB6FF00B58899 /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		110C240B210FFEAA000555AF /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		110C240C210FFEAA000555AF /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		110C240E21101183000555AF /* SixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		110C240F21101183000555AF /* SixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 		11147A7B20DA2340007D295C /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		11147A7C20DA2340007D295C /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		11147A8320DA3972007D295C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -33,10 +50,18 @@
 		11147A8720DA451E007D295C /* NoNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoNavViewController.m; sourceTree = "<group>"; };
 		11147A8920DA4D10007D295C /* UIViewController+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
 		11147A8A20DA4D10007D295C /* UIViewController+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		1116FD5B210EA3EE00C76F15 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1116FD5C210EA3EE00C76F15 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1116FD61210EB55700C76F15 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1116FD62210EB55700C76F15 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1116FD64210EDD4B00C76F15 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		1116FD65210EDD4B00C76F15 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		1126D00D20DCCA9900BB7933 /* JCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCTabBarViewController.h; sourceTree = "<group>"; };
 		1126D00E20DCCA9900BB7933 /* JCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCTabBarViewController.m; sourceTree = "<group>"; };
 		1126D01320DCCADD00BB7933 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		1126D01420DCCADD00BB7933 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		118EC2DC21081E5A00FC2A5A /* UIButton+Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Action.h"; sourceTree = "<group>"; };
+		118EC2DD21081E5A00FC2A5A /* UIButton+Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Action.m"; sourceTree = "<group>"; };
 		11D8D24520D8F9B000023E60 /* jichang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jichang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D8D24820D8F9B000023E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11D8D24920D8F9B000023E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +69,10 @@
 		11D8D25420D8F9B200023E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D8D25620D8F9B200023E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D8D25720D8F9B200023E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11EFDD5621096E1D001998C9 /* share_black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_black@3x.png"; sourceTree = "<group>"; };
+		11EFDD5721096E1D001998C9 /* share_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_black@2x.png"; sourceTree = "<group>"; };
+		11EFDD5821096E1E001998C9 /* share_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_black.png; sourceTree = "<group>"; };
+		11EFDD5C2109C4F2001998C9 /* 活动_01@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动_01@3x.png"; sourceTree = "<group>"; };
 		11F9A41820D907FE00B96CC0 /* jichang-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jichang-prefix.pch"; sourceTree = "<group>"; };
 		11F9A41F20D90B7C00B96CC0 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		11F9A42020D90B7C00B96CC0 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
@@ -77,6 +106,8 @@
 				11147A7C20DA2340007D295C /* UIImage+Color.m */,
 				11147A8920DA4D10007D295C /* UIViewController+HUD.h */,
 				11147A8A20DA4D10007D295C /* UIViewController+HUD.m */,
+				118EC2DC21081E5A00FC2A5A /* UIButton+Action.h */,
+				118EC2DD21081E5A00FC2A5A /* UIButton+Action.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -118,6 +149,7 @@
 		11147A8220DA3959007D295C /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				11EFDD5E2109C89B001998C9 /* Gesture */,
 				11147A8320DA3972007D295C /* MainViewController.h */,
 				11147A8420DA3972007D295C /* MainViewController.m */,
 			);
@@ -183,9 +215,64 @@
 			path = jichang;
 			sourceTree = "<group>";
 		};
+		11EFDD5521096E11001998C9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				11EFDD5C2109C4F2001998C9 /* 活动_01@3x.png */,
+				11EFDD5821096E1E001998C9 /* share_black.png */,
+				11EFDD5721096E1D001998C9 /* share_black@2x.png */,
+				11EFDD5621096E1D001998C9 /* share_black@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		11EFDD5E2109C89B001998C9 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				11EFDD612109C8AE001998C9 /* controller */,
+				11EFDD602109C8AA001998C9 /* view */,
+				11EFDD5F2109C8A6001998C9 /* model */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		11EFDD5F2109C8A6001998C9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		11EFDD602109C8AA001998C9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		11EFDD612109C8AE001998C9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				11063C98210AB6FF00B58899 /* GestureViewController.h */,
+				11063C99210AB6FF00B58899 /* GestureViewController.m */,
+				1116FD5B210EA3EE00C76F15 /* SecondViewController.h */,
+				1116FD5C210EA3EE00C76F15 /* SecondViewController.m */,
+				1116FD61210EB55700C76F15 /* ThirdViewController.h */,
+				1116FD62210EB55700C76F15 /* ThirdViewController.m */,
+				1116FD64210EDD4B00C76F15 /* FourViewController.h */,
+				1116FD65210EDD4B00C76F15 /* FourViewController.m */,
+				110C240B210FFEAA000555AF /* FiveViewController.h */,
+				110C240C210FFEAA000555AF /* FiveViewController.m */,
+				110C240E21101183000555AF /* SixViewController.h */,
+				110C240F21101183000555AF /* SixViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		11F9A41C20D90B0E00B96CC0 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				11EFDD5521096E11001998C9 /* images */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -294,7 +381,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11EFDD5921096E1E001998C9 /* share_black@3x.png in Resources */,
 				11D8D25520D8F9B200023E60 /* LaunchScreen.storyboard in Resources */,
+				11EFDD5A21096E1E001998C9 /* share_black@2x.png in Resources */,
+				11EFDD5D2109C4F2001998C9 /* 活动_01@3x.png in Resources */,
+				11EFDD5B21096E1E001998C9 /* share_black.png in Resources */,
 				11D8D25220D8F9B200023E60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,16 +438,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110C240D210FFEAA000555AF /* FiveViewController.m in Sources */,
+				1116FD5D210EA3EE00C76F15 /* SecondViewController.m in Sources */,
 				11F9A42A20D90BFE00B96CC0 /* CommonViewController.m in Sources */,
 				1126D01520DCCADD00BB7933 /* MineViewController.m in Sources */,
 				11F9A42120D90B7C00B96CC0 /* BaseViewController.m in Sources */,
 				11F9A42720D90BBE00B96CC0 /* RefreshViewController.m in Sources */,
+				110C241021101183000555AF /* SixViewController.m in Sources */,
 				11147A8520DA3972007D295C /* MainViewController.m in Sources */,
 				11D8D25820D8F9B200023E60 /* main.m in Sources */,
 				11147A8B20DA4D10007D295C /* UIViewController+HUD.m in Sources */,
 				1126D00F20DCCA9900BB7933 /* JCTabBarViewController.m in Sources */,
+				11063C9A210AB6FF00B58899 /* GestureViewController.m in Sources */,
+				1116FD63210EB55700C76F15 /* ThirdViewController.m in Sources */,
+				1116FD66210EDD4B00C76F15 /* FourViewController.m in Sources */,
 				11147A7D20DA2340007D295C /* UIImage+Color.m in Sources */,
 				11D8D24A20D8F9B000023E60 /* AppDelegate.m in Sources */,
+				118EC2DE21081E5A00FC2A5A /* UIButton+Action.m in Sources */,
 				11F9A42420D90B9800B96CC0 /* NetworkViewController.m in Sources */,
 				11147A8820DA451E007D295C /* NoNavViewController.m in Sources */,
 			);
@@ -491,8 +589,8 @@
 			baseConfigurationReference = 8F90ED2D517CE119D2B5FD12 /* Pods-jichang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FZC6S954D9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jichang/jichang-prefix.pch";
 				INFOPLIST_FILE = jichang/Info.plist;
@@ -502,6 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.minglongkeji.jichang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -511,8 +610,8 @@
 			baseConfigurationReference = 8EBA27D83BCEC7ED5F0B8EC4 /* Pods-jichang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FZC6S954D9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "jichang/jichang-prefix.pch";
 				INFOPLIST_FILE = jichang/Info.plist;
@@ -522,6 +621,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.minglongkeji.jichang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -8,6 +8,7 @@
 
 #import "NetworkViewController.h"
 
-@interface CommonViewController : NetworkViewController
-
+@interface CommonViewController : NetworkViewController<RETableViewManagerDelegate>
+@property (nonatomic,strong) RETableViewManager *commonManager;
+@property (nonatomic,strong) UITableView *commonTableView;
 @end

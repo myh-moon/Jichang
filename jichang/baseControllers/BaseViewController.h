@@ -18,4 +18,7 @@
 
 - (void) back;
 
+//右侧按钮点击事件
+- (void) rightAction;
+
 @end
